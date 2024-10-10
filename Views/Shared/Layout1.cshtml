@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/Content/Css/HeaderThanhToan.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body class="top">
+    <div class="header">
+        <div class="left-setion-header">
+            <img src="~/Content/Img/logo-tiki.png" />
+        </div>
+        <div class="blue-text">
+            <h2>| Thanh toán</h2>
+        </div>
+
+        <div class="right-section-header">
+            <div class="icon-phone">
+                <img src="~/Content/Img/telephone.png" />
+            </div>
+            <div class="phone-text">
+                <div class="blue-number">1900-6035</div>
+                <div> 6h-21h, cả thứ 7 &amp; CN</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

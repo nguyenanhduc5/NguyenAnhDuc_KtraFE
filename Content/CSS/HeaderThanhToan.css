@@ -1,0 +1,59 @@
+﻿body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f4f4fc;
+}
+.header {
+    background-color: white;
+    display: flex;
+}
+
+.left-setion-header {
+    color: blue;
+    font-weight: bold;
+    display: flex;
+}
+
+.blue-text {
+    color: lightskyblue;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.left-setion-header img {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 120px;
+    height: 80px;
+}
+
+.right-section-header {
+    display: flex;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: 50px;
+    width: 250px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.phone-text {
+    margin-left: 10px;
+}
+
+.icon-phone img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.blue-number {
+    font-size: 24px;
+    color: lightskyblue;
+    font-weight: bold;
+    text-align: left;
+}
+

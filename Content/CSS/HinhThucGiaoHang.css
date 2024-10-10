@@ -1,0 +1,151 @@
+﻿.mid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main-content {
+    flex: 0 0 60%;
+    background-color: #F4F4FC;
+}
+.table {
+    background-color: white;
+    margin-left: 30px;
+    width: 900px;
+    margin-top: 20px;
+}
+
+.title-hinh-thuc-giao-hang {
+    border: 1px solid white;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.text-title {
+    border: 1px solid white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.element {
+    border: 1px;
+}
+.giao-tiet-kiem {
+    display: flex;
+    margin-left: 30px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 500px;
+    height: 50px;
+    justify-content: left;
+    vertical-align: middle;
+    align-items: center;
+    background-color: #f4f4fc;
+}
+
+.giao-tiet-kiem input[type="radio"] {
+     margin-left: 20px;
+     margin-right: 10px;
+ }
+
+.green-price {
+    height: 20px;
+    width: 35px;
+    color:forestgreen;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+.green-label {
+    color:forestgreen;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.content {
+    width: 850px;
+    height: 110px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 10px 30px;
+    display: grid;
+}
+
+.shipping-info {
+    margin: 20px 20px;
+    display: flex;
+}
+
+.price-number {
+    margin-left: 220px;
+    font-weight: bold;
+    width: 130px;
+    height: 20px;
+}
+
+.GIA-DUNG-VIET {
+    display: flex;
+    margin-top: -10px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    background-color: #d0dbdd;
+    color: #808080;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.stacking-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail {
+    width: 400px;
+    height: 20px;
+}
+
+    .detail .price {
+        float: right;
+        font-weight: bold;
+    }
+
+.footer-table-I {
+    display: flex;
+    gap: 10px;
+}
+
+.shop-khuyen-mai {
+    margin-left: 30px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.nhap-hoac-chon-gia {
+    margin-top: 5px;
+    border: 1px solid white;
+    color: #808080;
+    background-color: white;
+    font-size: 16px;
+}
+.product-info {
+    margin-left: 10px;
+    margin-top: -110px;
+    display: flex;
+}
+
+    .product-info img {
+        width: 80px;
+        height: 50px;
+    }
+
+    .product-info .product-name {
+        width: 500px;
+        height: 20px;
+    }

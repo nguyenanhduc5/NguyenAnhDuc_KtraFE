@@ -1,0 +1,502 @@
+﻿@{
+    Layout = "~/Views/Shared/Layout1.cshtml";
+    <link rel="stylesheet" href="~/Content/Css/HinhThucGiaoHang.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="~/Content/Css/HinhThucThanhToan.css" rel="stylesheet" />
+    <link href="~/Content/Css/Right-side-box.css" rel="stylesheet" />
+}
+<style type="text/css">
+</style>
+<body class="mid">
+    <div class="main-content">
+        <!--Hình thức giao hàng -->
+        <div class="table">
+            <div class="title-hinh-thuc-giao-hang"><div class="text-title">Chọn hình thức giao hàng</div></div>
+            <!-- Form giao tiết kiệm -->
+            <form>
+                <div class="giao-tiet-kiem">
+                    <div>
+                        <input type="radio" name="name" value="" />Giao tiết kiệm  <span class="green-price"> -30k</spanid>
+                    </div>
+                </div>
+                <div class="red-label">
+                    <i class="fas fa-box"></i>
+                    Gói: Giao thứ 5, trước 19h, 26/10
+                </div>
+                <div class="content">
+                    <div class="shipping-info">
+                        <div>GIAO TIẾT KIỆM:</div>
+                        <div class="price-number"><s>42.000đ</s> 12.000đ </div>
+                        <div class="GIA-DUNG-VIET"><span><i class="fa-solid fa-truck-fast"></i>Được giao bởi GIA DỤNG VIỆT</span></div>
+                    </div>
+                    <div class="product-info">
+                        <img src="~/Content/Img/Điện thoại samsung galaxy A54 5g.jpg" />
+                        <div class="stacking-div">
+                            <div class="product-name">Điện thoại samsung galaxy A54 5g (8G/128G) - Hàng...</div>
+                            <div class="detail">
+                                <span class="amount">SL: x1</span>
+                                <span class="price">8.480.000VND</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="footer-table">
+                <div class="shop-khuyen-mai">Shop khuyến mãi</div>  <span class="nhap-hoac-chon-gia">Nhập hoặc chọn giá > </span>
+            </div>
+        </div>
+        <!-- Hình thức thanh toán -->
+        <div class="table-II">
+            <div class="title-hinh-thuc-thanh-toan"><div class="txt-tlt-II">Chọn hình thức thanh toán</div></div>
+            <form action="/" method="post">
+                <div class="danh-sach-lua-chon-thanh-toan">
+                    <div class="thanh-toan-option">
+                        <div class="radio-box"><input type="radio" name="name" value="" /></div>
+                        <div class="icon"><i class="fa-solid fa-money-bill fa-2x"></i></div>
+                        <div class="txt">Thanh toán bằng tiền mặt khi nhận hàng</div>
+                    </div>
+                    <div class="thanh-toan-option">
+                        <div class="radio-box"><input type="radio" name="name" value="" /></div>
+                        <div class="icon"><i class="fa-solid fa-mobile-screen-button fa-2x"></i></div>
+                        <div class="txt">Thanh toán bằng ví viettel money</div>
+                    </div>
+                    <div class="thanh-toan-option">
+                        <div class="radio-box"><input type="radio" name="name" value="" /></div>
+                        <div class="logo-img"><img src="~/Content/Img/icon-momo.png" /></div>
+                        <div class="txt">Thanh toán bằng ví MoMo</div>
+                    </div>
+                    <div class="thanh-toan-option">
+                        <div class="radio-box"><input type="radio" name="name" value="" /></div>
+                        <div class="logo-img"><img src="~/Content/Img/icon-ZaloPay.jpg" /></div>
+                        <div class="txt">Thanh toán bằng ví ZaloPay</div>
+                    </div>
+                    <div class="thanh-toan-option">
+                        <div class="radio-box"><input type="radio" name="name" value="" /></div>
+                        <div class="logo-img"><img src="~/Content/Img/icon-vnPay.jpg" /></div>
+                        <div>
+                            <div class="VNPAY1">Thanh toán bằng VN Pay</div>
+                            <div class="VNPAY2">Quét Mã QR từ ứng dụng ngân hàng</div>
+                        </div>
+                    </div>
+                    <div class="thanh-toan-option">
+                        <div class="radio-box"><input type="radio" name="name" value="" /></div>
+                        <div class="icon"><i class="fa-solid fa-credit-card fa-2x"></i></div>
+                        <div class="text-icon-column">
+                            <div class="text-col">Thanh toán bằng thẻ quốc tế Visa, Master, JCB</div>
+                            <div class="icon-col">
+                                <i class="fa-brands fa-cc-paypal"></i>
+                                <i class="fa-brands fa-cc-visa"></i>
+                                <i class="fa-brands fa-cc-mastercard"></i>
+                                <i class="fa-brands fa-cc-jcb"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="them-the-moi">
+                    <div class="blue-box">
+                        + Thêm thẻ mới
+                    </div>
+                </div>
+                <section class="uu-dai-thanh-toan">
+                    <div class="blue-background">
+                        <div class="header-UDTT">
+                            <div class="title-UDTT">
+                                <div><i class="fa-solid fa-tags"></i></div>
+                                <div>Ưu đãi thanh toán thẻ</div>
+                            </div>
+                        </div>
+                        <!-- Ưu đãi -->
+                        <div class="discount-container">
+                            <!-- Ưu đãi 1 -->
+                            <div class="square">
+                                <div class="dong-1">
+                                    <div class="blue-discount">Freeship</div>
+                                    <div class="bank">
+                                        <div class="bank-logo"><img src="~/Content/Img/Shinhan_Bank_Logo_(ENG).svg.png" /></div>
+                                        <div class="bank-name">Shinhan Bank</div>
+                                    </div>
+                                </div>
+                                <div class="dong-2">
+                                    <div class="label-I">Thẻ Shinhan Platinum</div>
+                                    <div class="icon-import"><i class="fa-solid fa-circle-exclamation"></i></div>
+                                </div>
+                                <div class="dong-3">
+                                    <i>Không giới hạn</i>
+                                </div>
+                            </div>
+                            <!-- Ưu đãi 2 -->
+                            <div class="square">
+                                <div class="dong-1">
+                                    <div class="blue-discount">Giảm 30k</div>
+                                    <div class="bank">
+                                        <div class="bank-logo"><img src="~/Content/Img/Shinhan_Bank_Logo_(ENG).svg.png" /></div>
+                                        <div class="bank-name">Shinhan Bank</div>
+                                    </div>
+                                </div>
+                                <div class="dong-2">
+                                    <div class="label-I">Đơn từ 200k</div>
+                                    <div class="icon-import"><i class="fa-solid fa-circle-exclamation"></i></div>
+                                </div>
+                                <div class="dong-3">
+                                    <i>Không giới hạn</i>
+                                </div>
+                            </div>
+                            <!-- Ưu đãi 3-->
+                            <div class="square">
+                                <div class="dong-1">
+                                    <div class="blue-discount">Giảm 50k</div>
+                                    <div class="bank">
+                                        <div class="bank-logo"><img src="~/Content/Img/Shinhan_Bank_Logo_(ENG).svg.png" /></div>
+                                        <div class="bank-name">Shinhan Bank</div>
+                                    </div>
+                                </div>
+                                <div class="dong-2">
+                                    <div class="label-I">Đơn từ 300k</div>
+                                    <div class="icon-import"><i class="fa-solid fa-circle-exclamation"></i></div>
+                                </div>
+                                <div class="dong-3">
+                                    <i>Không giới hạn</i>
+                                </div>
+                            </div>
+                            <!--Ưu đãi 4-->
+                            <div class="square">
+                                <div class="dong-1">
+                                    <div class="blue-discount">Giảm 50k</div>
+                                    <div class="bank">
+                                        <div class="bank-logo"><img src="~/Content/Img/Shinhan_Bank_Logo_(ENG).svg.png" /></div>
+                                        <div class="bank-name">Shinhan Bank</div>
+                                    </div>
+                                </div>
+                                <div class="dong-2">
+                                    <div class="label-I">Đơn từ 300k</div>
+                                    <div class="icon-import"><i class="fa-solid fa-circle-exclamation"></i></div>
+                                </div>
+                                <div class="dong-3">
+                                    <i>Không giới hạn</i>
+                                </div>
+                            </div>
+                            <!--Ưu đãi 5-->
+
+                            <div class="square">
+                                <div class="dong-1">
+                                    <div class="blue-discount">Giảm 70k</div>
+                                    <div class="bank">
+                                        <div class="bank-logo"><img src="~/Content/Img/Shinhan_Bank_Logo_(ENG).svg.png" /></div>
+                                        <div class="bank-name">Shinhan Bank</div>
+                                    </div>
+                                </div>
+                                <div class="dong-2">
+                                    <div class="label-I">Đơn từ 500k</div>
+                                    <div class="icon-import"><i class="fa-solid fa-circle-exclamation"></i></div>
+                                </div>
+                                <div class="dong-3">
+                                    <i>Không giới hạn</i>
+                                </div>
+                            </div>
+                            <!--ƯU đãi 6-->
+                            <div class="square">
+                                <div class="dong-1">
+                                    <div class="blue-discount">Giảm 100k</div>
+                                    <div class="bank">
+                                        <div class="bank-logo"><img src="~/Content/Img/Shinhan_Bank_Logo_(ENG).svg.png" /></div>
+                                        <div class="bank-name">Shinhan Bank</div>
+                                    </div>
+                                </div>
+                                <div class="dong-2">
+                                    <div class="label-I">Đơn từ 700k</div>
+                                    <div class="icon-import"><i class="fa-solid fa-circle-exclamation"></i></div>
+                                </div>
+                                <div class="dong-3">
+                                    <i>Không giới hạn</i>
+                                </div>
+                            </div>
+                            <!--ƯU đãi 7-->
+
+                            <div class="square">
+                                <div class="dong-1">
+                                    <div class="blue-discount">Giảm 150k</div>
+                                    <div class="bank">
+                                        <div class="bank-logo"><img src="~/Content/Img/Shinhan_Bank_Logo_(ENG).svg.png" /></div>
+                                        <div class="bank-name">Shinhan Bank</div>
+                                    </div>
+                                </div>
+                                <div class="dong-2">
+                                    <div class="label-I">Đơn từ 1 triệu</div>
+                                    <div class="icon-import"><i class="fa-solid fa-circle-exclamation"></i></div>
+                                </div>
+                                <div class="dong-3">
+                                    <i>Không giới hạn</i>
+                                </div>
+                            </div>
+                            <!--ƯU đãi 8-->
+
+                            <div class="square">
+                                <div class="dong-1">
+                                    <div class="blue-discount">Giảm 30k</div>
+                                    <div class="bank">
+                                        <div class="bank-logo"><img src="~/Content/Img/Shinhan_Bank_Logo_(ENG).svg.png" /></div>
+                                        <div class="bank-name">Shinhan Bank</div>
+                                    </div>
+                                </div>
+                                <div class="dong-2">
+                                    <div class="label-I">Đơn từ 200k</div>
+                                    <div class="icon-import"><i class="fa-solid fa-circle-exclamation"></i></div>
+                                </div>
+                                <div class="dong-3">
+                                    <i>Không giới hạn</i>
+                                </div>
+                            </div>
+                            <!--ƯU đãi 9-->
+
+                            <div class="square">
+                                <div class="dong-1">
+                                    <div class="blue-discount">Giảm 50k</div>
+                                    <div class="bank">
+                                        <div class="bank-logo"><img src="~/Content/Img/Shinhan_Bank_Logo_(ENG).svg.png" /></div>
+                                        <div class="bank-name">Shinhan Bank</div>
+                                    </div>
+                                </div>
+                                <div class="dong-2">
+                                    <div class="label-I">Đơn từ 300k</div>
+                                    <div class="icon-import"><i class="fa-solid fa-circle-exclamation"></i></div>
+                                </div>
+                                <div class="dong-3">
+                                    <i>Không giới hạn</i>
+                                </div>
+                            </div>
+                            <!--ƯU đãi 10-->
+
+                            <div class="square">
+                                <div class="dong-1">
+                                    <div class="blue-discount">Giảm 70k</div>
+                                    <div class="bank">
+                                        <div class="bank-logo"><img src="~/Content/Img/Shinhan_Bank_Logo_(ENG).svg.png" /></div>
+                                        <div class="bank-name">Shinhan Bank</div>
+                                    </div>
+                                </div>
+                                <div class="dong-2">
+                                    <div class="label-I">Đơn từ 500k</div>
+                                    <div class="icon-import"><i class="fa-solid fa-circle-exclamation"></i></div>
+                                </div>
+                                <div class="dong-3">
+                                    <i>Không giới hạn</i>
+                                </div>
+                            </div>
+                            <!--ƯU đãi 11-->
+
+                            <div class="square">
+                                <div class="dong-1">
+                                    <div class="blue-discount">Freeship</div>
+                                    <div class="bank">
+                                        <div class="bank-logo"><img src="~/Content/Img/Shinhan_Bank_Logo_(ENG).svg.png" /></div>
+                                        <div class="bank-name">Shinhan Bank</div>
+                                    </div>
+                                </div>
+                                <div class="dong-2">
+                                    <div class="label-I">Thẻ Shinhan Platinum</div>
+                                    <div class="icon-import"><i class="fa-solid fa-circle-exclamation"></i></div>
+                                </div>
+                                <div class="dong-3">
+                                    <i>Không giới hạn</i>
+                                </div>
+                            </div>
+                            <!--ƯU đãi 12-->
+
+                            <div class="square">
+                                <div class="dong-1">
+                                    <div class="blue-discount">Giảm 70k</div>
+                                    <div class="bank">
+                                        <div class="bank-logo-HDSAIGON"><img src="~/Content/Img/HD-SAIGON-LOGO.jpg" /></div>
+                                    </div>
+                                </div>
+                                <div class="dong-2">
+                                    <div class="label-I">Đơn từ 200k</div>
+                                    <div class="icon-import"><i class="fa-solid fa-circle-exclamation"></i></div>
+                                </div>
+                                <div class="dong-3">
+                                    <i>Không giới hạn</i>
+                                </div>
+                            </div>
+                            <!--ƯU đãi 13-->
+
+                            <div class="square">
+                                <div class="dong-1">
+                                    <div class="blue-discount">Giảm 50k</div>
+                                    <div class="bank">
+                                        <div class="bank-logo-MBANK"><img src="~/Content/Img/mb-bank-logo.png" /></div>
+                                    </div>
+                                </div>
+                                <div class="dong-2">
+                                    <div class="label-I">Đơn từ 500k</div>
+                                    <div class="icon-import"><i class="fa-solid fa-circle-exclamation"></i></div>
+                                </div>
+                                <div class="dong-3">
+                                    <i>Không giới hạn</i>
+                                </div>
+                            </div>
+                            <!--ƯU đãi 14-->
+
+                            <div class="square">
+                                <div class="dong-1">
+                                    <div class="blue-discount">Freeship</div>
+                                    <div class="bank">
+                                        <div class="bank-logo-replace"><img src="~/Content/Img/hd-bank-replace-tiki-card.png" /></div>
+                                    </div>
+                                </div>
+                                <div class="dong-2">
+                                    <div class="label-I">TikiCARD</div>
+                                    <div class="icon-import"><i class="fa-solid fa-circle-exclamation"></i></div>
+                                </div>
+                                <div class="dong-3">
+                                    <i>Không giới hạn</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Lựa chọn thanh toán-->
+                    <div class="danh-sach-lua-chon-thanh-toan">
+                        <div class="thanh-toan-option">
+                            <div class="radio-box"><input type="radio" name="name" value="" /></div>
+                            <div class="icon"><i class="fa-brands fa-cc-stripe fa-2x"></i></div>
+                            <div class="txt">Thẻ atm nội địa/Internet Banking (Hỗ trợ Internet Banking)</div>
+                        </div>
+                    </div>
+                </section>
+            </form>
+        </div>
+    </div>
+    <div class="sidebar">
+        <!--Thông tin khách hàng-->
+        <div class="sidebar-square">
+            <div class="thong-tin-khach-hang">
+                <div class="line-1">
+                    <div class="left-txt">Giao tới</div>
+                    <div class="right-blue-txt">Thay đổi</div>
+                </div>
+                <div class="line-2">
+                    <div class="ten-khach-hang">Quoc Tran Bao&nbsp;|</div>
+                    <div class="sdt-khach-hang"> &nbsp; 0328370905</div>
+                </div>
+                <div class="line-3">
+                    <div class="box-home">Nhà</div>
+                    <div class="dia-chi-khach-hang">52 Trần Hưng Đạo, Phường 04, Quận 5, Hồ Chí Minh</div>
+                </div>
+            </div>
+        </div>
+        <!--Khuyến mãi-->
+        <div class="sidebar-square-tiki-khuyen-mai">
+            <div class="tiki-khuyen-mai">
+                <div class="b2-line-1">
+                    <div class="b2-left-txt">Tiki Khuyến mãi</div>
+                    <div class="b2-right-txt">Có thể chọn 2&nbsp;<i class="fa-solid fa-circle-exclamation"></i></div>
+                </div>
+                <div class="b2-line-2">
+                    <img src="~/Content/Img/icon-ZaloPay.jpg" class="zalopay" />
+                    <div class="mid-text">Giảm 50k &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa-solid fa-circle-exclamation"></i></div>
+                    <button class="apply-btn">Áp dụng</button>
+                </div>
+                <div class="b2-line-3">
+                    <div class="icon-discount"><i class="fa-sharp fa-solid fa-tag"></i></div>
+                    <div class="discount-option">Chọn hoặc nhập khuyến mãi khác</div>
+                </div>
+            </div>
+        </div>
+        <!--Mã  giảm giá-->
+        <div class="sidebar-square-ASA">
+            <div class="app-dung-ma-giam-gia">
+                <div class="ASA-line-1">
+                    <div class="text-in-the-box">Thử ngay: Giảm giá cho đơn hàng bằng ASA</div>
+                </div>
+                <div class="ASA-line-2">
+                    <div class="icon-left"><i class="fa-solid fa-a fa-2x"></i></div>
+                    <div class="stack-text">
+                        <div class="text-above">
+                            <b>Chưa áp dụng giảm giá</b>
+                            <i class="fa-solid fa-circle-exclamation fa-xs"></i>
+                        </div>
+                        <div class="text-below">Vì chưa đạt đủ số lượng ASA</div>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox" name="name" value="" />
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="ASA-line-3">
+                    <div class="icon-left"><i class="fa-solid fa-t fa-2x"></i></div>
+                    <div class="stack-text">
+                        <div class="text-above">
+                            <b>Chưa áp dụng giảm giá</b>
+                        </div>
+                        <div class="text-below">Vì chưa sở hữu tối thiểu 1000 Xu</div>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox" name="name" value="" />
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="sidebar-square-yeu-cau-hoa-don">
+                <div class="yeu-cau-hoa-don">
+                    <div class="text-and-box">
+                        <input type="checkbox" class="checkbox-option" />
+                        <div>
+                            <div>Yêu cầu hóa đơn</div>
+                            <div class="text-below">Tiki Trading chỉ xuất hóa đơn điện tử</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar-square-V">
+                <div class="don-hang">
+                    <div class="V-section-1">
+                        <div class="section-above">
+                            <div class="V-left-text">Đơn hàng</div>
+                            <div class="V-right-blue">Thay đổi</div>
+                        </div>
+                        <div class="section-below">
+                            <div class="V-B-left-text">1 sản phẩm.</div>
+                            <div class="V-B-right-blue">&nbsp;  Xem thông tin <i class="fa-solid fa-chevron-down fa-xs"></i></div>
+                        </div>
+                    </div>
+
+                    <div class="V-section-2">
+                        <div class="VS2-LINE1">
+                            <div class="price-label">Tạm tính</div>
+                            <div class="price">8.480.000đ</div>
+                        </div>
+                        <div class="VS2-LINE2">
+                            <div class="price-label">Phí vận chuyển</div>
+                            <div class="price">42.000đ</div>
+                        </div>
+                        <div class="VS2-LINE3">
+                            <div class="price-label">Khuyến mãi vận chuyển</div>
+                            <div class="V-price-red">-30.000đ</div>
+                        </div>
+                    </div>
+
+                    <div class="V-section-3">
+                        <div class="VS3-LINE1">
+                            <div class="total-label">Tổng tiền</div>
+                            <div class="total-number">8.492.000đ</div>
+                        </div>
+                        <div class="VS3-LINE2">
+                            <div class="tax-vat">(Đã bao gồm VAT nếu có)</div>
+                        </div>
+                        <div class="VS3-LINE3">
+                            <i class="V-blue-text">FREESHIP</i>
+                            <b>Đã được áp dụng!</b>
+                        </div>
+                        <div class="VS3-LINE4">
+                            <button class="red-button"><div class="white-text">Đặt hàng</div></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+

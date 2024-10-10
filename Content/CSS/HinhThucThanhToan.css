@@ -1,0 +1,230 @@
+﻿.table-II {
+    background-color: white;
+    margin-left: 30px;
+    width: 900px;
+    height: 1100px;
+    margin-top: 20px;
+}
+
+.title-hinh-thuc-thanh-toan {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    border: 1px solid white;
+}
+
+.txt-tlt-II {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* border: 1px solid black;*/
+}
+
+.danh-sach-lua-chon-thanh-toan {
+    margin-left: 30px;
+}
+
+.thanh-toan-option {
+    display: flex;
+    font-size: 20px;
+    vertical-align: middle;
+    align-content: center;
+    border: 1px solid white;
+}
+
+.radio-box {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+input[type="radio"] {
+    width: 20px; /* Adjust the size */
+    height: 20px; /* Adjust the size */
+    color: blue;
+}
+
+.icon {
+    /*margin-left: 10px;*/
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.txt {
+    border: 1px solid white;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img img {
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+}
+
+.VNPAY1 {
+    margin-left: 10px;
+}
+
+.VNPAY2 {
+    padding-left: 10px;
+    color: #808080;
+}
+
+.text-icon-column {
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-col {
+    padding-left: 10px;
+}
+
+.icon-col {
+    padding-left: 10px;
+}
+
+.them-the-moi {
+    border: 1px solid #5233da;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.blue-background {
+    background-color: #E6EEF7;
+    width: 700px;
+    height: 550px;
+    border: 1px solid lightblue;
+    margin: 20px 100px;
+}
+
+.header-UDTT {
+    display: flex;
+    border: 1px solid #E6EEF7;
+    width: 100%;
+}
+
+.title-UDTT {
+    border: 1px solid #E6EEF7;
+    display: flex;
+    gap: 10px;
+    font-size: 24px;
+    color: darkblue;
+    margin: 10px 20px;
+}
+
+.discount-container {
+    border: 1px solid #E6EEF7;
+    display: grid;
+    height: 500px;
+    grid-template-columns: repeat(3, 1fr); /*3 items per row */
+    gap: 0px 20px; /*Space between the boxes */
+    margin: 0px 10px;
+}
+
+.square {
+    border: 1px solid white;
+    width: 210px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+.dong-1 {
+    display: flex;
+}
+
+.blue-discount {
+    border: 1px solid white;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: darkblue;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.bank {
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-size: 11px;
+    font-weight: bold;
+    height: 15px;
+}
+
+    .bank img {
+        width: 15px;
+        height: 15px;
+    }
+
+.dong-2 {
+    display: flex;
+}
+
+.label-I {
+    border: 1px solid white;
+    margin-left: 10px;
+    margin-top: 0px;
+    font-size: 14px;
+    height: 15px;
+    color: #808080;
+}
+
+.icon-import {
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 0px;
+    color: blue;
+}
+
+.dong-3 {
+    border: 1px solid white;
+    margin-left: 10px;
+    margin-top: 1px;
+    color: gold;
+    width: 150px;
+    height: 15px;
+}
+
+.bank-logo-HDSAIGON img {
+    width: 100px;
+    height: 33px;
+}
+
+.bank-logo-MBANK img {
+    width: 60px;
+    height: 25px;
+}
+
+.bank-logo-replace img {
+    width: 100px;
+    height: 20px;
+}
